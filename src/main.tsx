@@ -1,8 +1,10 @@
 import { StrictMode } from 'react'
-import ReactDom from 'react-dom/client'
+//import ReactDom from 'react-dom/client'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
+//import axios from 'axios'
 
+/*
 const notes = [
   {
     id: 1,
@@ -20,9 +22,9 @@ const notes = [
     important: true
   }
 ]
-
+*/
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App notes={notes}/>
+    <App />
   </StrictMode>
 );
